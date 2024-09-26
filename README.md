@@ -4,7 +4,7 @@ This is a description?
 
 ## How to get started
 - step 1: hello!
--- step 2: How are you?
+- step 2: How are you?
 ### Credits? o-o
 - LINK
 - LINK
