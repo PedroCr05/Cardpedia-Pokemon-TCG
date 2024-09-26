@@ -1,10 +1,8 @@
-# Pokémon TCG - Higher or Lower?
+# Pokémon TCG - Can you defeat it?
 ## Description
 Hello there trainer!
-Are you perphaps the best of the best?
-If, so. Do you think you can get a hot streak of a little game of higher or lower?
-
-Find out by playing this game!
+This is a small and simple game, but as simple as it may be. Do you think you're up for the challenge?
+In being the very best? Well, if so? Then try this neat little game!
 
 ### Credits? o-o
 - LINK
