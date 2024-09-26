@@ -10,7 +10,7 @@ This is a description?
 - LINK
 
 ## Wireframe
-// Put my wire framing and anything that might be needed
+Put my wire framing and anything that might be needed
 ![description of image] (image-here.png)
 ### whiteboarding
 
