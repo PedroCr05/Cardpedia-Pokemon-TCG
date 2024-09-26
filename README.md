@@ -3,15 +3,15 @@
 This is a description?
 
 ## How to get started
-steps?...
-
-#Credits? o-o
-LINK
-LINK
+- step 1: hello!
+-- step 2: How are you?
+### Credits? o-o
+- LINK
+- LINK
 
 # Wireframe
 // Put my wire framing and anything that might be needed
 ![description of image] (image-here.png)
-#whiteboarding
+# whiteboarding
 
 My first project WIP
