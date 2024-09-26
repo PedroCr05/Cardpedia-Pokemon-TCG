@@ -1,17 +1,16 @@
-# Project Zer0
+# Pokémon TCG - Higher or Lower?
 ## Description
-This is a description?
+Hello there trainer!
+Are you perphaps the best of the best?
+If, so. Do you think you can get a hot streak of a little game of higher or lower?
 
-## How to get started
-- step 1: hello!
-- step 2: How are you?
+Find out by playing this game!
+
 ### Credits? o-o
 - LINK
 - LINK
 
 ## Wireframe
-Put my wire framing and anything that might be needed
+Image import down below
 ![description of image] (image-here.png)
 ### whiteboarding
-
-My first project WIP
