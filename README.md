@@ -21,9 +21,7 @@ Then why do you prove it through these games?
 
 # THE MINIGAMES! 
 
-### Higher or Lower?
-
----
+## Higher or Lower?
 
 What is this game?
 
@@ -51,9 +49,7 @@ Remember! If you're truly **THE** *Champion of the Pokemon World.*
 
 You can **easily** beat this little minigame *right?* 
 
-### Can you guess that fact?
-
----
+## Can you guess that fact?
 
 ~~CAN YOU GUESS THAT POKEMON?~~
 *Ahem.* Sorry, wrong line.
@@ -79,9 +75,7 @@ Whether you do get it or not!
 
 Are you up for the *challenge?*
 
-### Are you the very best?
-
----
+## Are you the very best?
 
 *Well,* I see you've arrived at the near to bottom section.
 
@@ -109,10 +103,16 @@ If so! Give it a shot!
 
 ---
 
-### Credits? o-o
+### Credits
+
+API:
+- [TCGdex](https://github.com/tcgdex/javascript-sdk)
 
 Background Idea:
-- https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=shop_home_active_1
+
+*Ignore the fact, that it's an etsy listing >.>*
+- [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=shop_home_active_1)
 
 Card Ideas:
+
 - Something here... hmmm...

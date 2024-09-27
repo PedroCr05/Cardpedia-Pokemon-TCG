@@ -73,5 +73,3 @@ List:
         When ever the player does input their answer.
     
     #27: Whenever the player does guess wrong. It'll do a `numberIncrement+-` of their total lives.
-    
-    #28:
