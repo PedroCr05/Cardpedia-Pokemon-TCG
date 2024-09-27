@@ -3,6 +3,7 @@ Higher or Lower?
 Steps of probably how to do by doing this minigame.
 
 List:
+    
     #1: I must do a data.search of the pokedex numbers from 1-(whatever the highest is in the data).
     
     #2: Since we are using `if('statements')` to calulate whether the oppsing card is
@@ -73,4 +74,4 @@ List:
     
     #27: Whenever the player does guess wrong. It'll do a `numberIncrement+-` of their total lives.
     
-    #28: 
+    #28:
