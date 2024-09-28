@@ -11,25 +11,69 @@
 </head>
 <body>
     <header>
-        <h1 id="page-title">Poké TCG</h1>
-        <h2 id="page-sub-title">Higher or Lower?</h2>
+        <div class="title-container">
+            <h1 id="page-title">Pokémon TCG</h1>
+            <h2 id="page-sub-title">Higher or Lower?</h2>
+        </div> 
         <h3 id="unown-letters"></h3>
     </header>
     <nav>
 
     </nav>
     <main>
-        <div class="testing">
-            <input type="text" id="pokemon-name" placeholder="Test the Search!">
-            <button id="search-button">Search</button>
+        <div class="center-text-container">
+            <h2 class="arrow">HIGHER?</h2>
+            <h2 class="arrow">LOWER?</h2>
+            <div class="inner-pokeball-container">
+                <h3 id="center-text">IS IT</h3>
+            </div>
         </div>
-        <div id="card-data"></div>
+
+        <hr />
+        
+        <div class="play-area-container">
+            <img id="pkmn-card" />
+            <h2 id="pkmn-name-left">Rotom</h2>
+            <h2 id="pkmn-name-right">Marshadow</h2>
+        </div>
+
     </main>
     <aside>
+        <div class="timer-ball-container">
+            <h2 class="timer">10</h2>
+            <h2 class="timer">10</h2>
+        </div>
 
+        <div class="htp-container">
+            <h3 class="intro">How to play:</h3>
+            <p id="desc">
+                Your goal is to pick between the green and red arrows. 
+                Green means higher, red means lower. 
+                The card on the left is yours, and you're up against the card on the right.
+                The key? Think of the Pokémon's Dex number! 
+                Compare them: for example, if it's Rotom (Dex 479) vs. Marshadow (Dex 802), 
+                you'd hit red for lower. 
+                Each time you guess, your opponent's card becomes yours.
+                But there’s a twist—you only get three chances before losing all your points. 
+                Oh, and you're racing against the clock, so no peeking at PokéWiki!
+                With every correct guess, time speeds up until you can’t keep up.
+                Think you can beat my score of 15?
+            </p>
+        </div>
+
+        <div class="game-trackers-container">
+            <h2 id="plyr-score">Cards guessed correctly: 00 </h2>
+            <h2 id="wrong-input">Chances left: 03 </h2>
+        </div>
     </aside>
     <footer>
-
+        <div class="mini-game-container">
+            <h2 id="drop-menu-title">Other Minigames</h2>
+            <ul>
+                <li class="minigames">Can you guess that fact?</li>
+                <li class="minigames">Are you the very best?</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

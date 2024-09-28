@@ -1,6 +1,4 @@
-const pokemonNameInput = document.querySelector('#pokemon-name');
-const searchButton = document.querySelector('#search-button');
-const cardData = document.querySelector('#card-data');
+const cardData = document.querySelector('#pkmn-card');
 
 
 searchButton.addEventListener('click', async () => {

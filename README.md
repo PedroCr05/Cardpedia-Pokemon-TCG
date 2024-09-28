@@ -99,7 +99,7 @@ If so! Give it a shot!
 
 *The idea of this little project's design~!*
 
-![description of image](Assets-Folder/Wire-Frame-Folder/Project-Wireframe.png)
+![description of image](Asset/Wire-Frame/Project-Wireframe.png)
 
 ---
 
