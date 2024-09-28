@@ -113,6 +113,10 @@ Background Idea:
 *Ignore the fact, that it's an etsy listing >.>*
 - [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=shop_home_active_1)
 
-Card Ideas:
+Font used during this project:
 
-- Something here... hmmm...
+- [Annone](https://www.fontspace.com/annone-font-f4876)
+
+- [Pokemon Pixels Font](https://www.fontspace.com/pokemon-pixels-font-f13534)
+
+- [Pokmon Solid Font](https://www.fontspace.com/pokemon-solid-font-f13844)

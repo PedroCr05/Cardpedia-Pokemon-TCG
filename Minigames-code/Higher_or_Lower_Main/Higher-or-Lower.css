@@ -1,0 +1,25 @@
+/* Higher-or-Lower.css */
+body {
+  font-family: sans-serif;
+}
+  
+#pokemon-name {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+  
+#search-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+ cursor: pointer;
+}
+  
+#card-data {
+  margin-top: 20px;
+  font-family: monospace;
+  white-space: pre-wrap; 
+}
