@@ -108,21 +108,22 @@ If so! Give it a shot!
 API:
 - [TCGdex](https://github.com/tcgdex/javascript-sdk)
 
-Background Idea:
+
+
+Background Images/Designs:
 
 *Ignore the fact, that it's an etsy listing >.>*
-- [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=shop_home_active_1)
+- [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=) | Gameboard
+- [Hoenn Background](https://www.reddit.com/r/pokemon/comments/11xa0zx/pokemon_gen_3_rubysapphireemerald_opening/#lightbox) by [floof_muppin](https://www.reddit.com/user/floof_muppin/) on reddit. | Higher or Lower - Background Image
 
-Higher or Lower:
-- [Hoenn Background](https://www.reddit.com/r/pokemon/comments/11xa0zx/pokemon_gen_3_rubysapphireemerald_opening/#lightbox) by [floof_muppin](https://www.reddit.com/user/floof_muppin/) on reddit.
+Sources for any help/code:
 
+- [She Codes](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code) | How I imported custom download fonts
 
 Font used during this project:
 
-- [Font help](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code)
+- [Annone](https://www.fontspace.com/annone-font-f4876) | Unown (The Pokemon) Language Characters
+ 
+- [Pokemon Pixels](https://www.fontspace.com/pokemon-pixels-font-f13534) | Gameboy Pokemon Sprites
 
-- [Annone](https://www.fontspace.com/annone-font-f4876)
-
-- [Pokemon Pixels Font](https://www.fontspace.com/pokemon-pixels-font-f13534)
-
-- [Pokmon Solid Font](https://www.fontspace.com/pokemon-solid-font-f13844)
+- [Pokmon Solid](https://www.fontspace.com/pokemon-solid-font-f13844) | The Pokemon Font
