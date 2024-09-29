@@ -113,7 +113,13 @@ Background Idea:
 *Ignore the fact, that it's an etsy listing >.>*
 - [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=shop_home_active_1)
 
+Higher or Lower:
+- [Hoenn Background](https://www.reddit.com/r/pokemon/comments/11xa0zx/pokemon_gen_3_rubysapphireemerald_opening/#lightbox) by [floof_muppin](https://www.reddit.com/user/floof_muppin/) on reddit.
+
+
 Font used during this project:
+
+- [Font help](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code)
 
 - [Annone](https://www.fontspace.com/annone-font-f4876)
 

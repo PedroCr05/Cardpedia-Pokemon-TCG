@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylessheet" src="Minigames-code/Higher-or-Lower/Higher-or-Lower.css">
+    <link rel="stylesheet" href="./Higher-or-Lower.css">
     <title>Pokemon TCG Minigames</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tcgdex/sdk@2/dist/tcgdex.browser.js"></script>
     <script defer src="Higher-or-Lower.js"></script>
 </head>
-<body>
+<body> 
     <header>
+        <h1 id="pixelmon">abc</h1>
         <div class="title-container">
             <h1 id="page-title">Pokémon TCG</h1>
+            <hr id="title-underline" />
             <h2 id="page-sub-title">Higher or Lower?</h2>
+            <hr id="sub-underline" />
+            <h3 id="unown-letters">Higher or Lower</h3>
         </div> 
-        <h3 id="unown-letters"></h3>
     </header>
     <nav>
 
@@ -23,19 +26,24 @@
     <main>
         <div class="center-text-container">
             <h2 class="arrow">HIGHER?</h2>
-            <h2 class="arrow">LOWER?</h2>
             <div class="inner-pokeball-container">
+                <div class="pokeball-outline"></div>
+                <div class="pokeball-bottom-lid"></div>
+                <div class="pokeball-top-lid"></div>
+                <div class="pokeball-center-line"></div>
+                <div class="pokeball-button"></div>
                 <h3 id="center-text">IS IT</h3>
             </div>
+            <h2 class="arrow">LOWER?</h2>
         </div>
-
-        <hr />
         
         <div class="play-area-container">
             <img id="pkmn-card" />
             <h2 id="pkmn-name-left">Rotom</h2>
             <h2 id="pkmn-name-right">Marshadow</h2>
         </div>
+
+
 
     </main>
     <aside>

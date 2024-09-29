@@ -1,28 +1,99 @@
+/* Global calls */
+
 @font-face {
   font-family: Annone;
-  src: url(Asset/Fonts/annone-font/Annone-rxOB.ttf);
+  src: url("../../Asset/Fonts/annone-font/Annone-rxOB.ttf");
 }
-
 @font-face {
   font-family: PokemonPixels1;
-  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels1-jYmj.ttf);
+  src: url("../../Asset/Fonts/pokemon-pixels-font/PokemonPixels1-jYmj.ttf");
 }
-
 @font-face {
   font-family: PokemonPixels2;
-  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels2-59jx.ttf);
+  src: url("../../Asset/Fonts/pokemon-pixels-font/PokemonPixels2-59jx.ttf");
 }
-
 @font-face {
   font-family: PokemonPixels3;
-  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels3-zljG.ttf);
+  src: url("../../Asset/Fonts/pokemon-pixels-font/PokemonPixels3-zljG.ttf");
 }
-
 @font-face {
   font-family: PokemonSolidNormal;
-  src: url(Asset/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf);
-}
+  src: url("../../Asset/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
+}  
 
 body {
   font-family: PokemonSolidNormal;
+  color: black;
+  letter-spacing: .25rem;
+  background: url("https://preview.redd.it/pokemon-gen-3-ruby-sapphire-emerald-opening-sequence-v0-ob9ep0ztn1pa1.png?width=2160&format=png&auto=webp&s=8156ef76d5ef321dcd3d8ce4195488639d4352de");
+  background-size: 20rem;
+  background-position: right 19rem bottom 47.5rem;
 }
+
+/* ---------------------------- */
+
+/* Container calls */
+.htp-container {
+  letter-spacing: .1rem;
+}
+
+.title-container {
+  border: #438ae0 5px solid;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: .95rem;
+  background-color: #f2db8d;
+  letter-spacing: .3295rem;
+}
+
+
+.center-text-container {
+  margin: auto 0;
+  padding-top: 5rem;
+  display: grid;
+  justify-content: center;
+  font-size: 9.5px;
+  text-align: center;
+}
+/* Class calls */
+
+
+
+/* ---------------------------- */
+
+/* Title container ids */
+#unown-letters {
+  text-align: center;
+  font-family: Annone;
+  font-size: 1.85rem;
+  color: #438ae0;
+}
+
+#page-title {
+  font-size: 40px;
+  -webkit-text-stroke: .1rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+}
+
+#page-sub-title {
+  font-size: 23.5px;
+  -webkit-text-stroke: .1rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+  letter-spacing: .35rem;
+}
+
+#title-underline {
+  border: #438ae0 2px solid;
+  width: 18.815rem;
+  border-radius: 50%;
+}
+
+#sub-underline {
+  border: #438ae0 2px solid;
+  width: 16rem;
+  border-radius: 50%;
+}
+
+/* ---------------------------- */
+
+/* Center text container ids  */
