@@ -1,25 +1,28 @@
-/* Higher-or-Lower.css */
+@font-face {
+  font-family: Annone;
+  src: url(Asset/Fonts/annone-font/Annone-rxOB.ttf);
+}
+
+@font-face {
+  font-family: PokemonPixels1;
+  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels1-jYmj.ttf);
+}
+
+@font-face {
+  font-family: PokemonPixels2;
+  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels2-59jx.ttf);
+}
+
+@font-face {
+  font-family: PokemonPixels3;
+  src: url(Asset/Fonts/pokemon-pixels-font/PokemonPixels3-zljG.ttf);
+}
+
+@font-face {
+  font-family: PokemonSolidNormal;
+  src: url(Asset/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf);
+}
+
 body {
-  font-family: sans-serif;
-}
-  
-#pokemon-name {
-  width: 200px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-}
-  
-#search-button {
-  padding: 10px 20px;
-  background-color: #4CAF50; /* Green */
-  color: white;
-  border: none;
- cursor: pointer;
-}
-  
-#card-data {
-  margin-top: 20px;
-  font-family: monospace;
-  white-space: pre-wrap; 
+  font-family: PokemonSolidNormal;
 }
