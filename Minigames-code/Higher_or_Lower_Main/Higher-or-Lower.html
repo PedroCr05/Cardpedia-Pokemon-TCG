@@ -22,8 +22,19 @@
     </header>
     <main>
         <div class="center-container">
+            <div class="game-trackers-container">
+                <h2>Guessed Correctly</h6>
+                <h6 id="message time-display">00</h6>
+                <h6 id="wrong-input">Retries left: 03 </h6>
+            </div>
+
+            <div class="timer-container">
+                <h3 class="message-display">Clock is ticking!</h3>
+                <h3 class="time-display">10</h3>
+            </div>
+
             <div class="up-arrow-container">
-                <h2 class="up">HIGHER?</h2>
+                <h2 id="up">HIGHER?</h2>
                 <div id="up-arrow-outline"></div>
                 <div id="up-arrow"></div>
             </div>
@@ -40,7 +51,7 @@
             <div class="down-arrow-container">
                 <div id="down-arrow-outline"></div>
                 <div id="down-arrow"></div>
-                <h2 class="down">LOWER?</h2>
+                <h2 id="down">LOWER?</h2>
             </div>
         
             <div class="plyr">
@@ -56,11 +67,6 @@
     </main>
 
     <aside>
-        <div class="timer-ball-container">
-            <h2 class="timer">10</h2>
-            <h2 class="timer">10</h2>
-        </div>
-
         <div class="htp-container">
             <h3 class="intro">How to play:</h3>
             <p id="desc">
@@ -76,11 +82,6 @@
                 With every correct guess, time speeds up until you can’t keep up.
                 Think you can beat my score of 15?
             </p>
-        </div>
-
-        <div class="game-trackers-container">
-            <h2 id="plyr-score">Cards guessed correctly: 00 </h2>
-            <h2 id="wrong-input">Chances left: 03 </h2>
         </div>
     </aside>
     <footer>

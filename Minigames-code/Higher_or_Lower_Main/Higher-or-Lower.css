@@ -1,6 +1,5 @@
 /* Global calls */
 /* ---------------------------- */
-
 @font-face {
   font-family: Annone;
   src: url("../../Asset/Fonts/annone-font/Annone-rxOB.ttf");
@@ -20,8 +19,9 @@
 @font-face {
   font-family: PokemonSolidNormal;
   src: url("../../Asset/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
-}  
-
+}
+/* ---------------------------- */
+/* HTML tags */
 body {
   font-family: PokemonSolidNormal;
   color: aquamarine;
@@ -53,13 +53,26 @@ body {
 .center-container {
   display: grid;
   grid-template-areas: 
-  'up-arrow up-arrow up-arrow'
+  'game-info up-arrow timer'
   'plyr-card pokeball bot-card'
   'left-name down-arrow right-name';
   font-size: 9.5px;
   text-align: center;
   z-index: 0;
-  gap: 1rem; 
+  gap: 1rem;
+}
+
+.timer-container {
+  grid-area: timer;
+  color: black;
+}
+
+.game-trackers-container {
+  grid-area: game-info;
+  color: black;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: .7rem;
 }
 
 .pokeball-container {
@@ -218,11 +231,10 @@ body {
 }
 /* ---------------------------- */
 /* Both Up and Down Arrow's ids */
-
 #up-arrow {
   width: 0;
   height: 0;
-  border: green 1.9rem solid;
+  border: lime 1.9rem solid;
   border-left-color: transparent;
   border-right-color: transparent;
   border-top-color: transparent;
@@ -239,6 +251,26 @@ body {
   z-index: 2;
 }
 /* ---------------------------- */
+/* Higher or Lower ids*/
+h2#up,
+h2#down {
+  font-size: 20px;
+  -webkit-text-stroke: .05rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2#up {
+  align-self: end;
+}
+
+h2#down {
+  align-self: top;
+}
+
+/* ---------------------------- */
 /* On field Pokemon ids */
 #left-name {
   color: orange;
@@ -246,6 +278,7 @@ body {
   font-size: 1rem;
   -webkit-text-stroke: .02rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
+  text-align: center;
 }
 
 #plyr-card {
@@ -259,6 +292,7 @@ body {
   font-size: 1rem;
   -webkit-text-stroke: .02rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
+  text-align: center;
 }
 
 #bot-card {
