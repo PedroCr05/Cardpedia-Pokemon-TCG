@@ -60,9 +60,12 @@ body {
 }
 
 .center-container {
-  margin: auto 0;
-  padding-top: 5rem;
   display: grid;
+  grid-template-areas:
+  'plyr up-arrow bot'
+  'plyr pokeball bot'
+  'plyr down-arrow bot'
+  ;
   font-size: 9.5px;
   text-align: center;
   z-index: 0;
@@ -230,3 +233,5 @@ body {
   border-bottom-color: transparent;
 }  */
 
+/* ---------------------------- */
+/*  */
