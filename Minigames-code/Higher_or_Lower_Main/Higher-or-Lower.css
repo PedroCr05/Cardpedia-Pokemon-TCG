@@ -23,11 +23,12 @@
 
 body {
   font-family: PokemonSolidNormal;
-  color: black;
+  color: aquamarine;
   letter-spacing: .25rem;
-  background: url("https://preview.redd.it/pokemon-gen-3-ruby-sapphire-emerald-opening-sequence-v0-ob9ep0ztn1pa1.png?width=2160&format=png&auto=webp&s=8156ef76d5ef321dcd3d8ce4195488639d4352de");
-  background-size: 20rem;
-  background-position: right 19rem bottom 47.5rem;
+  background: url("../../Asset/Backgrounds/higher-or-lower/img-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* ---------------------------- */
@@ -46,7 +47,6 @@ body {
   letter-spacing: .3295rem;
 }
 
-
 .center-text-container {
   margin: auto 0;
   padding-top: 5rem;
@@ -61,23 +61,32 @@ body {
 
 /* ---------------------------- */
 
+/* Singular ids */
+
+#pixelmon {
+  font-family: PokemonPixels2;
+  padding-bottom: 1.5rem;
+  font-size: .7rem;
+  color: aliceblue;
+}
+
 /* Title container ids */
 #unown-letters {
   text-align: center;
   font-family: Annone;
-  font-size: 1.85rem;
+  font-size: 1.35rem;
   color: #438ae0;
 }
 
 #page-title {
-  font-size: 40px;
-  -webkit-text-stroke: .1rem  #438ae0;
+  font-size: 32px;
+  -webkit-text-stroke: .05rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
 }
 
 #page-sub-title {
-  font-size: 23.5px;
-  -webkit-text-stroke: .1rem  #438ae0;
+  font-size: 17.5px;
+  -webkit-text-stroke: .05rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
   letter-spacing: .35rem;
 }
