@@ -1,5 +1,5 @@
 /* Global calls */
-
+/* ---------------------------- */
 @font-face {
   font-family: Annone;
   src: url("../../Asset/Fonts/annone-font/Annone-rxOB.ttf");
@@ -30,9 +30,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 /* ---------------------------- */
-
 /* Container calls */
 .htp-container {
   letter-spacing: .1rem;
@@ -55,14 +53,84 @@ body {
   font-size: 9.5px;
   text-align: center;
 }
-/* Class calls */
 
-
-
+.pokeball-container {
+  width: 5rem; 
+  height: 5rem; 
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
 /* ---------------------------- */
+/* Pokeball Class */
+.pokeball-outline {
+  background: black;
+  width: 5rem; 
+  height: 5rem; 
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
 
+.pokeball-bottom-lid {
+  background: white;
+  width: 4.5rem; 
+  height: 4.5rem; 
+  border-radius: 50%;
+  z-index: 0;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-top-lid {
+  background: red;
+  width: 4.5rem; 
+  height: 2.3rem; 
+  border-radius: 10rem 10rem 0 0;
+  z-index: 1;
+  margin-top: .195rem;
+  align-self: start;
+  grid-row: 1;
+  grid-column: 1; 
+}
+
+.pokeball-center-line {
+  background: black;
+  width: 5rem; 
+  height: 0.3rem; 
+  z-index: 2;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-button-outline {
+  background-color: black;
+  width: 1rem; 
+  height: 1rem; 
+  border-radius: 50%;
+  z-index: 3;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-button-color {
+  background-color: white;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  z-index: 4;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+/* ---------------------------- */
 /* Singular ids */
-
 #pixelmon {
   font-family: PokemonPixels2;
   padding-bottom: 1.5rem;
@@ -102,7 +170,9 @@ body {
   width: 16rem;
   border-radius: 50%;
 }
-
 /* ---------------------------- */
-
 /* Center text container ids  */
+
+#center-text {
+  z-index: 5;
+}
