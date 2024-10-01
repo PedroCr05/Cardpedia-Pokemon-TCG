@@ -50,36 +50,41 @@ body {
   z-index: 0;
 }
 
-.pokeball-container {
-  width: 5rem; 
-  height: 5rem; 
-  margin: 2rem auto;
-  display: grid;
-  place-items: center;
-  position: relative;
-}
-
 .center-container {
   display: grid;
-  grid-template-areas:
-  'plyr up-arrow bot'
-  'plyr pokeball bot'
-  'plyr down-arrow bot'
-  ;
+  grid-template-areas: 
+  'up-arrow up-arrow up-arrow'
+  'plyr-card pokeball bot-card'
+  'left-name down-arrow right-name';
   font-size: 9.5px;
   text-align: center;
   z-index: 0;
+  gap: 1rem; 
+}
+
+.pokeball-container {
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  grid-area: pokeball;
+  justify-self: center;
 }
 
 .up-arrow-container {
   display: grid;
   justify-items: center;
+  grid-area: up-arrow;
+  position: relative;
 }
 
 .down-arrow-container {
   display: grid;
   justify-items: center;
+  grid-area: down-arrow;
 }
+
 .htp-container {
   letter-spacing: .1rem;
 }
@@ -111,7 +116,6 @@ body {
   background: red;
   width: 4.5rem; 
   height: 2.3rem;
-  /* Semi circle was very helpful didn't have to deal as much issues */
   border-radius: 10rem 10rem 0 0;
   z-index: 3;
   margin-top: .195rem;
@@ -148,12 +152,29 @@ body {
   border-radius: 50%;
   z-index: 6;
   position: absolute;
+  display: grid;
   grid-row: 1;
   grid-column: 1;
+  justify-items: center;
+}
+/* ---------------------------- */
+/* Pokemon Class Names */
+.plyr {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bot {
+  display: grid;
+  flex-direction: column;
+  justify-self: center;
 }
 /* ---------------------------- */
 /* Singular Class(es) */
-
+.pkmn-names{
+  color: black;
+}
 /* ---------------------------- */
 /* Pokemon Sprites ids */
 #pixelmon-first-top {
@@ -197,41 +218,50 @@ body {
 }
 /* ---------------------------- */
 /* Both Up and Down Arrow's ids */
-/* #up-arrow-outline {
-  width: 0;
-  height: 0;
-  border: black 2.2rem solid;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-} */
 
 #up-arrow {
   width: 0;
   height: 0;
-  border: green 2rem solid;
+  border: green 1.9rem solid;
   border-left-color: transparent;
   border-right-color: transparent;
   border-top-color: transparent;
+  z-index: 2;
 }
 
 #down-arrow {
   width: 0;
   height: 0;
-  border: red 2rem solid;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom: transparent;
-}
-
-/* #down-arrow-outline {
-  width: 0;
-  height: 0;
-  border: black 2.2rem solid;
+  border: red 1.9rem solid;
   border-left-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
-}  */
-
+  z-index: 2;
+}
 /* ---------------------------- */
-/*  */
+/* On field Pokemon ids */
+#left-name {
+  color: orange;
+  grid-area: left-name;
+  font-size: 1rem;
+  -webkit-text-stroke: .02rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+}
+
+#plyr-card {
+  grid-area: plyr-card;
+  align-self: center;
+}
+
+#right-name{
+  color: red;
+  grid-area: right-name;
+  font-size: 1rem;
+  -webkit-text-stroke: .02rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+}
+
+#bot-card {
+  grid-area: bot-card;
+  align-self: center;
+}
