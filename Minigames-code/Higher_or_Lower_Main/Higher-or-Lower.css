@@ -29,6 +29,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: grid;
+  grid-template-areas: 
+  'pixelmon'
+  'title-container'
+  'center-text-container'
+  'pokeball-container'
+
+  ;
 }
 /* ---------------------------- */
 /* Container calls */
@@ -51,6 +59,7 @@ body {
   display: grid;
   font-size: 9.5px;
   text-align: center;
+  z-index: 5;
 }
 
 .pokeball-container {
@@ -132,7 +141,6 @@ body {
 /* Singular ids */
 #pixelmon {
   font-family: PokemonPixels2;
-  padding-bottom: 1.5rem;
   font-size: .7rem;
   color: aliceblue;
 }
