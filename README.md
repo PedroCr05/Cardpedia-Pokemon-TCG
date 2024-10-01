@@ -113,12 +113,16 @@ API:
 Background Images/Designs:
 
 *Ignore the fact, that it's an etsy listing >.>*
-- [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=) | Gameboard
-- [Hoenn Background](https://www.reddit.com/r/pokemon/comments/11xa0zx/pokemon_gen_3_rubysapphireemerald_opening/#lightbox) by [floof_muppin](https://www.reddit.com/user/floof_muppin/) on reddit. | Higher or Lower - Background Image
+- [Esty](https://www.etsy.com/listing/399061431/pokemon-tcg-25-x-26-two-player-battle?ref=) | The Gameboard Design!
+- [Hoenn Background](https://www.reddit.com/r/pokemon/comments/11xa0zx/pokemon_gen_3_rubysapphireemerald_opening/#lightbox) by [floof_muppin](https://www.reddit.com/user/floof_muppin/) on reddit. | Higher or Lower 1st image!
+- [Night Sky Cliff](https://www.reddit.com/r/MysteryDungeon/comments/113xu9e/tutorial_making_your_own_mobile_mystery_dungeon/) by [HiGuysImLeo](https://www.reddit.com/user/HiGuysImLeo/) over at reddit. | Higher or Lower 2nd image!
+-[Pokemon Center Background](https://www.deviantart.com/spacemints/art/pokemon-center-free-bg-615787534) by [SpaceMints](https://www.deviantart.com/spacemints) at Deviant Art. | Higher or Lower 3rd image!
+- [Grass Border](https://www.spriters-resource.com/game_boy_advance/pokemonemerald/sheet/134267/) These grass pixels are from Pokemon Emerald and been used over at Higher or Lower!
 
 Sources for any help/code:
 
-- [She Codes](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code) | How I imported custom download fonts
+- [She Codes](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code) | How I imported custom download fonts.
+- [Unused CSS](https://unused-css.com/blog/css-half-circle/) | Helped out a bunch when dealing with semi circles!
 
 Font used during this project:
 
