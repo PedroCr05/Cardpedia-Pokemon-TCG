@@ -56,6 +56,7 @@ body {
   'game-info up-arrow timer'
   'plyr-card pokeball bot-card'
   'left-name down-arrow right-name';
+  grid-template-columns: repeat(3, 1fr);
   font-size: 9.5px;
   text-align: center;
   z-index: 0;
@@ -72,7 +73,7 @@ body {
   color: black;
   line-height: 1.2rem;
   text-align: center;
-  font-size: .7rem;
+  border:#438ae0 5px
 }
 
 .pokeball-container {
@@ -85,7 +86,7 @@ body {
   justify-self: center;
 }
 
-.up-arrow-container {
+.main-up-container {
   display: grid;
   justify-items: center;
   grid-area: up-arrow;
@@ -231,6 +232,17 @@ body {
 }
 /* ---------------------------- */
 /* Both Up and Down Arrow's ids */
+/* #up-arrow-outline {
+  width: 0;
+  height: 0;
+  border: black 2.2rem solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  position: relative;
+  justify-self: center;
+} */
+
 #up-arrow {
   width: 0;
   height: 0;
@@ -239,6 +251,7 @@ body {
   border-right-color: transparent;
   border-top-color: transparent;
   z-index: 2;
+  padding-top: 0;
 }
 
 #down-arrow {
@@ -250,26 +263,36 @@ body {
   border-bottom-color: transparent;
   z-index: 2;
 }
+/* #down-arrow-outline {
+  width: 0;
+  height: 0;
+  border: black 2.2rem solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  position: relative;
+} */
 /* ---------------------------- */
 /* Higher or Lower ids*/
-h2#up,
-h2#down {
+#up{
   font-size: 20px;
   -webkit-text-stroke: .05rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
   text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-h2#up {
+  justify-content: end;
   align-self: end;
+  margin-bottom: -1.75rem;
 }
 
-h2#down {
-  align-self: top;
+#down {
+  font-size: 20px;
+  -webkit-text-stroke: .05rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+  text-align: center;
+  justify-content: end;
+  align-self: end;
+  margin-top: -2.35rem;
 }
-
 /* ---------------------------- */
 /* On field Pokemon ids */
 #left-name {

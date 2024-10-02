@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Higher-or-Lower.css">
     <title>Pokemon TCG Minigames</title>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tcgdex/sdk@2/dist/tcgdex.browser.js"></script>
-    <script defer src="Higher-or-Lower.js"></script>
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tcgdex/sdk@2/dist/tcgdex.browser.js"></script>
+    <script defer src="./Higher-or-Lower.js"></script>
 </head>
 <body>
     <header>
@@ -21,22 +21,25 @@
         </div> 
     </header>
     <main>
+        
         <div class="center-container">
             <div class="game-trackers-container">
                 <h2>Guessed Correctly</h6>
-                <h6 id="message time-display">00</h6>
+                <h6 id="message-time-display">00</h6>
                 <h6 id="wrong-input">Retries left: 03 </h6>
             </div>
 
             <div class="timer-container">
-                <h3 class="message-display">Clock is ticking!</h3>
-                <h3 class="time-display">10</h3>
+                <h3 id="message-display">Clock is ticking!</h3>
+                <h3 id="time-display">10</h3>
             </div>
 
-            <div class="up-arrow-container">
+            <div class="main-up-container">
                 <h2 id="up">HIGHER?</h2>
-                <div id="up-arrow-outline"></div>
-                <div id="up-arrow"></div>
+                <div class="sub-up-container">
+                    <div id="up-arrow-outline"></div>
+                    <div id="up-arrow"></div>
+                </div>
             </div>
             
             <div class="pokeball-container">
