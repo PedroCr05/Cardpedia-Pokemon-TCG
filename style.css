@@ -1,324 +1,183 @@
-/* Global calls */
-/* ---------------------------- */
+/* --------------{Global Calls}-------------- */
 @font-face {
-    font-family: Annone;
-    src: url("../../Assets/Fonts/annone-font/Annone-rxOB.ttf");
-  }
-  @font-face {
-    font-family: PokemonPixels1;
-    src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels1-jYmj.ttf");
-  }
-  @font-face {
-    font-family: PokemonPixels2;
-    src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels2-59jx.ttf");
-  }
-  @font-face {
-    font-family: PokemonPixels3;
-    src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels3-zljG.ttf");
-  }
-  @font-face {
-    font-family: PokemonSolidNormal;
-    src: url("../../Assets/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
-  }
-  /* ---------------------------- */
-  /* HTML tags */
-  body {
-    font-family: PokemonSolidNormal;
-    color: aquamarine;
-    letter-spacing: .25rem;
-    background: url("../../Assets/Backgrounds/higher-or-lower/img-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: grid;
-    grid-template-areas: 
-    'header'
-    'main'
-    'aside'
-    'footer'
-    ;
-  }
-  /* ---------------------------- */
-  /* Container calls */
-  .title-container {
-    border: #438ae0 5px solid;
-    border-radius: 2rem;
-    text-align: center;
-    line-height: .95rem;
-    background-color: #f2db8d;
-    letter-spacing: .3295rem;
-    z-index: 0;
-  }
+  font-family: Annone;
+  src: url("../../Assets/Fonts/annone-font/Annone-rxOB.ttf");
+}
+@font-face {
+  font-family: PokemonPixels1;
+  src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels1-jYmj.ttf");
+}
+@font-face {
+  font-family: PokemonPixels2;
+  src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels2-59jx.ttf");
+}
+@font-face {
+  font-family: PokemonPixels3;
+  src: url("../../Assets/Fonts/pokemon-pixels-font/PokemonPixels3-zljG.ttf");
+}
+@font-face {
+  font-family: PokemonSolidNormal;
+  src: url("../../Assets/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
+}
+/* -------------{HTML Tags}--------------- */
+body {
+  font-family: PokemonSolidNormal;
+  color: aquamarine;
+  letter-spacing: .25rem;
+  background: url(/Assets/Backgrounds/Images/gen-3-backdrop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'nav'
+  'main'
+  'aside'
+  'footer'
+  ;
+}
+/* -------------{Container Calls}--------------- */
+.title-container {
+  border: #438ae0 5px solid;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: .95rem;
+  background-color: #f2db8d;
+  letter-spacing: .3295rem;
+  z-index: 0;
+}
+
+.center-container {
+  display: grid;
+  grid-template-areas: 
+  'game-info up-arrow timer'
+  'plyr-card pokeball bot-card'
+  'left-name down-arrow right-name';
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 9.5px;
+  text-align: center;
+  z-index: 0;
+  gap: 1rem;
+}
   
-  .center-container {
-    display: grid;
-    grid-template-areas: 
-    'game-info up-arrow timer'
-    'plyr-card pokeball bot-card'
-    'left-name down-arrow right-name';
-    grid-template-columns: repeat(3, 1fr);
-    font-size: 9.5px;
-    text-align: center;
-    z-index: 0;
-    gap: 1rem;
-  }
+.pokeball-container {
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  grid-area: pokeball;
+  justify-self: center;
+}
+/* -------------{Pokeball Classes}--------------- */
+.pokeball-outline {
+  background: black;
+  width: 5rem; 
+  height: 5rem; 
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.pokeball-bottom-lid {
+  background: white;
+  width: 4.5rem; 
+  height: 4.5rem; 
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-top-lid {
+  background: red;
+  width: 4.5rem; 
+  height: 2.3rem;
+  border-radius: 10rem 10rem 0 0;
+  z-index: 3;
+  margin-top: .195rem;
+  align-self: start;
+  grid-row: 1;
+  grid-column: 1; 
+}
+
+.pokeball-center-line {
+  background: black;
+  width: 5rem; 
+  height: 0.3rem; 
+  z-index: 4;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-button-outline {
+  background-color: black;
+  width: 1rem; 
+  height: 1rem; 
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.pokeball-button-color {
+  background-color: white;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  z-index: 6;
+  position: absolute;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  justify-items: center;
+}
+/* -------------{Singular Class(es)}--------------- */
+.pkmn-names{
+  color: black;
+}
+/* -------------{Pokemon Sprites Ids}--------------- */
+#pixelmon-first-top {
+  font-family: PokemonPixels2;
+  font-size: 1.2rem;
+  color: aliceblue;
+  margin: 0 0 1.7rem 0;
+}
+/* -------------{Title Container Ids}--------------- */
+#unown-letters {
+  text-align: center;
+  font-family: Annone;
+  font-size: 1.35rem;
+  color: #438ae0;
+ }
   
-  .timer-container {
-    grid-area: timer;
-    color: black;
-  }
+#page-title {
+  font-size: 32px;
+  -webkit-text-stroke: .05rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+}
   
-  .game-trackers-container {
-    grid-area: game-info;
-    color: black;
-    line-height: 1.2rem;
-    text-align: center;
-    border:#438ae0 5px
-  }
+#page-sub-title {
+  font-size: 17.5px;
+  -webkit-text-stroke: .05rem  #438ae0;
+  -webkit-text-fill-color: #e0c502;
+  letter-spacing: .35rem;
+}
   
-  .pokeball-container {
-    width: 5rem;
-    height: 5rem;
-    display: grid;
-    place-items: center;
-    position: relative;
-    grid-area: pokeball;
-    justify-self: center;
-  }
+#title-underline {
+  border: #438ae0 2px solid;
+  width: 18.815rem;
+  border-radius: 50%;
+}
   
-  .main-up-container {
-    display: grid;
-    justify-items: center;
-    grid-area: up-arrow;
-    position: relative;
-  }
-  
-  .down-arrow-container {
-    display: grid;
-    justify-items: center;
-    grid-area: down-arrow;
-  }
-  
-  .htp-container {
-    letter-spacing: .1rem;
-  }
-  /* ---------------------------- */
-  /* Pokeball Classes*/
-  .pokeball-outline {
-    background: black;
-    width: 5rem; 
-    height: 5rem; 
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    position: absolute;
-  }
-  
-  .pokeball-bottom-lid {
-    background: white;
-    width: 4.5rem; 
-    height: 4.5rem; 
-    border-radius: 50%;
-    z-index: 2;
-    position: absolute;
-    grid-row: 1;
-    grid-column: 1;
-  }
-  
-  .pokeball-top-lid {
-    background: red;
-    width: 4.5rem; 
-    height: 2.3rem;
-    border-radius: 10rem 10rem 0 0;
-    z-index: 3;
-    margin-top: .195rem;
-    align-self: start;
-    grid-row: 1;
-    grid-column: 1; 
-  }
-  
-  .pokeball-center-line {
-    background: black;
-    width: 5rem; 
-    height: 0.3rem; 
-    z-index: 4;
-    position: absolute;
-    grid-row: 1;
-    grid-column: 1;
-  }
-  
-  .pokeball-button-outline {
-    background-color: black;
-    width: 1rem; 
-    height: 1rem; 
-    border-radius: 50%;
-    z-index: 5;
-    position: absolute;
-    grid-row: 1;
-    grid-column: 1;
-  }
-  
-  .pokeball-button-color {
-    background-color: white;
-    width: 0.75rem;
-    height: 0.75rem;
-    border-radius: 50%;
-    z-index: 6;
-    position: absolute;
-    display: grid;
-    grid-row: 1;
-    grid-column: 1;
-    justify-items: center;
-  }
-  /* ---------------------------- */
-  /* Pokemon Class Names */
-  .plyr {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .bot {
-    display: grid;
-    flex-direction: column;
-    justify-self: center;
-  }
-  /* ---------------------------- */
-  /* Singular Class(es) */
-  .pkmn-names{
-    color: black;
-  }
-  /* ---------------------------- */
-  /* Pokemon Sprites ids */
-  #pixelmon-first-top {
-    font-family: PokemonPixels2;
-    font-size: 1.2rem;
-    color: aliceblue;
-    margin: 0 0 1.7rem 0;
-  }
-  /* ---------------------------- */
-  /* Title Container ids */
-  #unown-letters {
-    text-align: center;
-    font-family: Annone;
-    font-size: 1.35rem;
-    color: #438ae0;
-  }
-  
-  #page-title {
-    font-size: 32px;
-    -webkit-text-stroke: .05rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-  }
-  
-  #page-sub-title {
-    font-size: 17.5px;
-    -webkit-text-stroke: .05rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-    letter-spacing: .35rem;
-  }
-  
-  #title-underline {
-    border: #438ae0 2px solid;
-    width: 18.815rem;
-    border-radius: 50%;
-  }
-  
-  #sub-underline {
-    border: #438ae0 2px solid;
-    width: 16rem;
-    border-radius: 50%;
-  }
-  /* ---------------------------- */
-  /* Both Up and Down Arrow's ids */
-  /* #up-arrow-outline {
-    width: 0;
-    height: 0;
-    border: black 2.2rem solid;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    position: relative;
-    justify-self: center;
-  } */
-  
-  #up-arrow {
-    width: 0;
-    height: 0;
-    border: lime 1.9rem solid;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    z-index: 2;
-    padding-top: 0;
-  }
-  
-  #down-arrow {
-    width: 0;
-    height: 0;
-    border: red 1.9rem solid;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    z-index: 2;
-  }
-  /* #down-arrow-outline {
-    width: 0;
-    height: 0;
-    border: black 2.2rem solid;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    position: relative;
-  } */
-  /* ---------------------------- */
-  /* Higher or Lower ids*/
-  #up{
-    font-size: 20px;
-    -webkit-text-stroke: .05rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-    text-align: center;
-    justify-content: end;
-    align-self: end;
-    margin-bottom: -1.75rem;
-  }
-  
-  #down {
-    font-size: 20px;
-    -webkit-text-stroke: .05rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-    text-align: center;
-    justify-content: end;
-    align-self: end;
-    margin-top: -2.35rem;
-  }
-  /* ---------------------------- */
-  /* On field Pokemon ids */
-  #left-name {
-    color: orange;
-    grid-area: left-name;
-    font-size: 1rem;
-    -webkit-text-stroke: .02rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-    text-align: center;
-  }
-  
-  #plyr-card {
-    grid-area: plyr-card;
-    align-self: center;
-  }
-  
-  #right-name{
-    color: red;
-    grid-area: right-name;
-    font-size: 1rem;
-    -webkit-text-stroke: .02rem  #438ae0;
-    -webkit-text-fill-color: #e0c502;
-    text-align: center;
-  }
-  
-  #bot-card {
-    grid-area: bot-card;
-    align-self: center;
-  }
+#sub-underline {
+  border: #438ae0 2px solid;
+  width: 16rem;
+  border-radius: 50%;
+}
