@@ -22,7 +22,6 @@
 /* -------------{HTML Tags}--------------- */
 body {
   font-family: PokemonSolidNormal;
-  color: aquamarine;
   letter-spacing: .25rem;
   background: url(/Assets/Backgrounds/Images/gen-3-backdrop.png);
   background-size: cover;
@@ -48,18 +47,14 @@ body {
   z-index: 0;
 }
 
-.center-container {
+/* .center-container {
   display: grid;
-  grid-template-areas: 
-  'game-info up-arrow timer'
-  'plyr-card pokeball bot-card'
-  'left-name down-arrow right-name';
   grid-template-columns: repeat(3, 1fr);
   font-size: 9.5px;
   text-align: center;
   z-index: 0;
   gap: 1rem;
-}
+} */
   
 .pokeball-container {
   width: 5rem;
@@ -180,4 +175,8 @@ body {
   border: #438ae0 2px solid;
   width: 16rem;
   border-radius: 50%;
+}
+/* img tag id */
+
+#card-png{
 }
