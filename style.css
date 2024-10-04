@@ -19,164 +19,266 @@
   font-family: PokemonSolidNormal;
   src: url("../../Assets/Fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
 }
-/* -------------{HTML Tags}--------------- */
+/* --------------{HTML Tags}-------------- */
 body {
-  font-family: PokemonSolidNormal;
-  letter-spacing: .25rem;
-  background: url(/Assets/Backgrounds/Images/gen-3-backdrop.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/Assets/Backgrounds/Images/empty-plot.jpg);
   background-position: center;
-  display: grid;
-  grid-template-areas: 
-  'header'
-  'nav'
-  'main'
-  'aside'
-  'footer'
-  ;
+  background-size: cover;
+  font-family: PokemonSolidNormal;
 }
-/* -------------{Container Calls}--------------- */
+/* -------------{Generalists}--------------- */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+/* -------------{Pokemon Sprite on Page Ends}--------------- */
+.pixelmons{
+  color: #438ae0;
+  font-family: PokemonPixels2;
+  font-size: 2rem;
+  text-align: center;
+  padding-right: 10rem;
+  overflow: hidden;
+}
+/* -------------{Button}--------------- */
+#submit {
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
+  color: #438ae0;
+  background-color: #f2db8d;
+  font-family: PokemonSolidNormal; 
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: .125rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 3px solid #438ae0;
+  border-radius: 10px;
+  margin-left: -1.4rem;
+  transition: background-color .6s ease-in 1ms, box-shadow 2s ease-out 3ms, color .4s ease-in 1ms;
+}
+#submit:hover {
+  background-color: #438ae0;
+  color: #f2db8d;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+/* -------------{Search Bar}--------------- */
+#user-input {
+  width: 190px;
+  height: 60px;
+  color: #438ae0;
+  background-color: #f2db8d;
+  font-family: PokemonSolidNormal;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 3px solid #438ae0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 1rem;
+}
+
+#user-input::placeholder { 
+  color: #438ae0;
+  font-style: italic;
+}
+/* -------------{Page Title Board}--------------- */
 .title-container {
-  border: #438ae0 5px solid;
-  border-radius: 2rem;
+  background-color: #f2db8d;
   text-align: center;
   line-height: .95rem;
-  background-color: #f2db8d;
   letter-spacing: .3295rem;
+  border: #438ae0 5px solid;
+  border-radius: 2rem;
   z-index: 0;
 }
-
-/* .center-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  font-size: 9.5px;
-  text-align: center;
-  z-index: 0;
-  gap: 1rem;
-} */
-  
-.pokeball-container {
-  width: 5rem;
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  position: relative;
-  grid-area: pokeball;
-  justify-self: center;
-}
-/* -------------{Pokeball Classes}--------------- */
-.pokeball-outline {
-  background: black;
-  width: 5rem; 
-  height: 5rem; 
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  position: absolute;
-}
-
-.pokeball-bottom-lid {
-  background: white;
-  width: 4.5rem; 
-  height: 4.5rem; 
-  border-radius: 50%;
-  z-index: 2;
-  position: absolute;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.pokeball-top-lid {
-  background: red;
-  width: 4.5rem; 
-  height: 2.3rem;
-  border-radius: 10rem 10rem 0 0;
-  z-index: 3;
-  margin-top: .195rem;
-  align-self: start;
-  grid-row: 1;
-  grid-column: 1; 
-}
-
-.pokeball-center-line {
-  background: black;
-  width: 5rem; 
-  height: 0.3rem; 
-  z-index: 4;
-  position: absolute;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.pokeball-button-outline {
-  background-color: black;
-  width: 1rem; 
-  height: 1rem; 
-  border-radius: 50%;
-  z-index: 5;
-  position: absolute;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.pokeball-button-color {
-  background-color: white;
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 50%;
-  z-index: 6;
-  position: absolute;
-  display: grid;
-  grid-row: 1;
-  grid-column: 1;
-  justify-items: center;
-}
-/* -------------{Singular Class(es)}--------------- */
-.pkmn-names{
-  color: black;
-}
-/* -------------{Pokemon Sprites Ids}--------------- */
-#pixelmon-first-top {
-  font-family: PokemonPixels2;
-  font-size: 1.2rem;
-  color: aliceblue;
-  margin: 0 0 1.7rem 0;
-}
-/* -------------{Title Container Ids}--------------- */
-#unown-letters {
-  text-align: center;
-  font-family: Annone;
-  font-size: 1.35rem;
-  color: #438ae0;
- }
-  
+ 
 #page-title {
-  font-size: 32px;
+  font-size: 40px;
   -webkit-text-stroke: .05rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
 }
   
 #page-sub-title {
-  font-size: 17.5px;
+  font-size: 29.5px;
+  letter-spacing: .35rem;
   -webkit-text-stroke: .05rem  #438ae0;
   -webkit-text-fill-color: #e0c502;
-  letter-spacing: .35rem;
 }
-  
+
+#unown-letters {
+  color: #438ae0;
+  text-align: center;
+  font-family: Annone;
+  font-size: 2rem;
+}
+
 #title-underline {
+  width: 19.75rem;
   border: #438ae0 2px solid;
-  width: 18.815rem;
   border-radius: 50%;
 }
   
 #sub-underline {
+  width: 14.95rem;
   border: #438ae0 2px solid;
-  width: 16rem;
   border-radius: 50%;
 }
-/* img tag id */
+/* -------------{Api Content}--------------- */
+.api-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-#card-png{
+.api-library {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+  overflow: hidden;
+}
+
+.name-of-cards {
+  width: 110px;
+  background-color: #e0c502;
+  font-size: large;
+  text-align: center;
+  letter-spacing: .2rem;
+  border: #438ae0 3px solid;
+  align-self: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 0 1.5rem 0rem .5rem;
+  transition: background-color .5s ease-in .5ms, 1s ease-out 3ms;
+}
+
+.name-of-cards:hover {
+  background-color: #438ae0;
+  transform: translateY(-20px);
+}
+
+.api-library > div {
+  border: 2px solid #438ae0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'PokemonSolidNormal', sans-serif;
+  color: #438ae0;
+}
+
+img {
+  grid-area: img;
+  opacity: 0;
+  width: 55%;
+  height: 55%;
+}
+/* -------------{Pokeball}--------------- */
+.pokeball-container {
+  opacity: 0;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  grid-area: pokeball;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pokeball-outline {
+  width: 5rem;
+  height: 5rem;
+  background: black;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.pokeball-bottom-lid {
+  width: 4.5rem; 
+  height: 4.5rem;
+  background: white;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.pokeball-top-lid {
+  width: 4.5rem; 
+  height: 2.3rem;
+  background: red;
+  align-self: start;
+  border-radius: 10rem 10rem 0 0;
+  margin-top: .195rem;
+  z-index: 3;
+}
+
+.pokeball-center-line {
+  width: 5rem;
+  height: 0.3rem;
+  background: black;
+  position: absolute;
+  z-index: 4;
+}
+
+.pokeball-button-outline {
+  width: 1rem; 
+  height: 1rem;
+  background-color: black; 
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
+
+.pokeball-button-color {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 6;
+}
+/* -------------{Card Sets}--------------- */
+.tcg-sets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+  overflow: hidden;
+  gap: 10px;
+  justify-content: center;
+}
+
+.set-titles {
+  width: 200px;
+  background-color: #e0c502;
+  font-size: large;
+  text-align: center;
+  letter-spacing: .2rem;
+  border: #438ae0 3px solid;
+  align-self: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 0 1.5rem 0rem .5rem;
+  transition: background-color .5s ease-in .5ms, 1s ease-out 3ms;
+}
+
+.set-titles:hover {
+  background-color: #438ae0;
+  transform: translateY(-20px);
+}
+/* -------------{How to Search}--------------- */
+.hts-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hts-drop-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

@@ -28,7 +28,7 @@ Sources for any help/code:
 - [She Codes](https://www.shecodes.io/athena/9852-how-to-add-a-custom-font-to-your-css-code) | How I imported custom download fonts.
 - [Unused CSS](https://unused-css.com/blog/css-half-circle/) | Helped out a bunch when dealing with semi circles!
 - [CSS Tricks](https://css-tricks.com/books/greatest-css-tricks/how-to-make-a-triangle/) | Simple but effective way of making triangles!
-
+- [Blog](https://blog.hubspot.com/website/css-hover-animation) | Neat little animation for when a user hovers over an object.
 Font used during this project:
 
 - [Annone](https://www.fontspace.com/annone-font-f4876) | Unown (The Pokemon) Language Characters
