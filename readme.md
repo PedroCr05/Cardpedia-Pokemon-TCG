@@ -56,7 +56,9 @@ Thank you for reading and I hope my 3 days worth of work didn't make you cringe.
 *If you are curious of the original readme for it here it is.* [Enjoy~!](/Additional-Files/original-readme.md)
 ![description of image](/Assets/Wire-Frame/Project-Wireframe.png)
 
-The after math of what felt somewhat defeated but in the end I learned a valuable lesson and I got to learn more about CSS codes. Most importantly *FINALLY* starting to understand grids~![Cardpedia~!](/Additional-Files/Cardpedia-Page.png)
+The after math of what felt somewhat defeated but in the end I learned a valuable lesson and I got to learn more about CSS codes. Most importantly *FINALLY* starting to understand grids~! 
+
+[Cardpedia~!](/Additional-Files/Cardpedia-Page.png)
 ---
 
 ### Credits
