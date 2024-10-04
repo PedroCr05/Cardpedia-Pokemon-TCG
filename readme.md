@@ -19,7 +19,7 @@ In face you can even look up all sorts of calls. From pokemon, trainer cards, an
 
 That's easy! All you have to do is first!
 
-- Click the link of the site [Cardpedia](https://github.com/PedroCr05/Cardpedia-Pokemon-TCG/blob/main/Additional-Files/original-readme.md) *I actually don't have the site ready sooo uhhh yeah... :)*
+- Click the link of the site [Cardpedia](https://pedrocr05.surge.sh) *I actually don't have the site ready sooo uhhh yeah... :)*
 
 - When on the webpage you will be greeted with four things. First the search button, How to search menu, Card list, and Card sets!
 
