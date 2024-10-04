@@ -58,7 +58,7 @@ Thank you for reading and I hope my 3 days worth of work didn't make you cringe.
 
 The after math of what felt somewhat defeated but in the end I learned a valuable lesson and I got to learn more about CSS codes. Most importantly *FINALLY* starting to understand grids~! 
 
-[Cardpedia~!](/Additional-Files/Cardpedia-Page.png)
+![Cardpedia~!](/Additional-Files/Cardpedia-Page.png)
 ---
 
 ### Credits
