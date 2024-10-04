@@ -26,14 +26,6 @@ body {
   background-size: cover;
   font-family: PokemonSolidNormal;
 }
-/* -------------{Generalists}--------------- */
-.center-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-}
 /* -------------{Pokemon Sprite on Page Ends}--------------- */
 .pixelmons{
   color: #438ae0;

@@ -1,5 +1,52 @@
+## Pokemon TCG Card Search! (Cardpedia)
 
+Why hello there trainer! Are you perhaps in the need of a search engine, because you forgot what a card does?
 
+Well you just so happen to have arrive at a far corner of the internet to find...
+
+**CARDPEDIA!!**
+
+# What exactly is Cardpedia?
+
+Well fellow trainer. Cardpedia is the only site you can use for searching cards...
+*No it's not just trying to sell my point here :b*
+
+You can search from all sorts of cards. From the earlier times from when Pokemon TCG as existed and to the latest releases!
+
+In face you can even look up all sorts of calls. From pokemon, trainer cards, and maybe some random cards if you feeling lucky~!
+
+# How exactly do I use this?
+
+That's easy! All you have to do is first!
+
+- Click the link of the site [Cardpedia](https://github.com/PedroCr05/Cardpedia-Pokemon-TCG/blob/main/Additional-Files/original-readme.md) *I actually don't have the site ready sooo uhhh yeah... :)*
+
+- When on the webpage you will be greeted with four things. First the search button, How to search menu, Card list, and Card sets!
+
+- I recommend looking at the how to search, but since you're here. There is no need for that~!
+
+- Next, card sets! If you are confused or unsure what card sets there are in the pokemon TCG? Well no problemo! I got your back trainer! *Also beware... it's a VERY long list... Sorry!*
+
+- Now once you've decided you're *favorite* choice words from the best list ever~! Just go ahead and drop that into sentence into the wonderful words of *Search a card?* Once you do go ahead and click on that search button! :D
+
+- Woah! Another list! Yay! *I swear I tried to make it smaller, sorry if the cards is even longer not sure though but good luck~! o7* Once you find you're favorite pocket monster. You can click on it and it will bring you the wonderful data of the card!
+
+# Wait but what if I want to change cards?
+
+- R-right! *ahem* Just search the name again! Don't worry the set name for the cards will not be removed so you can just spam that search button until it falls off! *I'd be worried if it does fall off though...*
+
+### Final notes...
+
+Hello, my name is Pedro and I want to say this project was both easy and challenging in *so* many ways.
+
+Though on thing I did enjoy during this project is seeing myself understanding certain lines of code from having no idea what I'm typing to having like the slightest idea... *Ok, yes it's not much but* It is for me!
+
+As you can notice right below the wire framing. Yeah... maybe I was a little ambitious, but I blame myself.
+I will for sure be more careful with my project resources, data, and just anything I will use.
+
+It hurt sadly that I had to swap ideas mid way. Was looking forward to my higher or lower but maybe in the future!
+
+Thank you for reading and I hope my 3 days worth of work didn't make you cringe... *too much :b*
 ### Wireframe
 
 ---
@@ -9,6 +56,7 @@
 *If you are curious of the original readme for it here it is.* [Enjoy~!](/Additional-Files/original-readme.md)
 ![description of image](/Assets/Wire-Frame/Project-Wireframe.png)
 
+The after math of what felt somewhat defeated but in the end I learned a valuable lesson and I got to learn more about CSS codes. Most importantly *FINALLY* starting to understand grids~![Cardpedia~!](/Additional-Files/Cardpedia-Page.png)
 ---
 
 ### Credits
