@@ -1,4 +1,4 @@
-## Pokemon TCG Card Search! (Cardpedia)
+# Pokemon TCG Card Search! (Cardpedia)
 
 Why hello there trainer! Are you perhaps in the need of a search engine, because you forgot what a card does?
 
@@ -6,7 +6,7 @@ Well you just so happen to have arrive at a far corner of the internet to find..
 
 **CARDPEDIA!!**
 
-# What exactly is Cardpedia?
+## What exactly is Cardpedia?
 
 Well fellow trainer. Cardpedia is the only site you can use for searching cards...
 *No it's not just trying to sell my point here :b*
@@ -15,7 +15,7 @@ You can search from all sorts of cards. From the earlier times from when Pokemon
 
 In face you can even look up all sorts of calls. From pokemon, trainer cards, and maybe some random cards if you feeling lucky~!
 
-# How exactly do I use this?
+## How exactly do I use this?
 
 That's easy! All you have to do is first!
 
